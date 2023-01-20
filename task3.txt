@@ -1,0 +1,108 @@
+DAY 3 TASK
+
+
+1.json iteration overall for loop
+Example of for loop:-
+
+var arr = [
+    {
+        "name" : "vivien",
+        "age" : "4"
+    },
+
+    {
+        "name" : "siva",
+        "age" : "33"
+    },
+    {
+        "name" : "kani",
+        "age" : "27"
+    },
+
+];
+for(var i=0;i<arr.length;i++) {
+    
+    console.log(arr[i].name);
+}
+Output
+
+vivien
+ siva
+kani
+
+
+2.for in:-
+Example
+
+var arr = [
+    {
+        "name" : "vivien",
+        "age" : "4"
+    },
+
+    {
+        "name" : "siva",
+        "age" : "33"
+    },
+    {
+        "name" : "kani",
+        "age" : "27"
+    },
+
+];
+
+for(var i in arr)
+{
+console.log(arr[i].name);
+}
+
+Output
+
+vivien
+ siva
+Kani
+
+
+
+2.Create own resume in json format
+
+
+var resume = {
+    name : "kani",
+    age : "25",
+    location : "Chennai",
+    attendance : ["mon","tue","wed","thu","fri"],
+    qualification : ["10th","12th","degree"],
+    experience : "10 years of experience in XXXXX company",
+    languages_known : ["tamil","English"]
+}
+console.log(resume);
+
+
+
+Output
+age: "25"
+attendance: Array(5)
+0: "mon"
+1: "tue"
+2: "wed"
+3: "thu"
+4: "fri"
+length: 5
+[[Prototype]]: Array(0)
+experience: "10 years of experience in XXXXX company"
+languages_known: Array(2)
+0: "tamil"
+1: "English"
+length: 2
+[[Prototype]]: Array(0)
+location: "Chennai"
+name: "kani"
+qualification: Array(3)
+0: "10th"
+1: "12th"
+2: "degree"
+length: 3
+[[Prototype]]: Array(0)
+[[Prototype]]: Object
+
